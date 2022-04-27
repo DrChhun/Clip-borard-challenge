@@ -4,3 +4,80 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.track__content__img {
+    position: relative;
+    right: 10rem;
+}
+
+@media (max-width: 768px) {
+
+    .header__content__btn,
+    .user__btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mac-btn {
+        margin-top: 1rem;
+    }
+
+    .track__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tarck-p {
+        width: auto;
+    }
+
+    .track__content h1,
+    .explain img {
+        margin-top: 3.5rem;
+    }
+
+    /* .tarck__content__txt__quick,
+    .tarck__content__txt__icloud,
+    .tarck__content__txt__complete {
+        margin-top: 2rem;
+    } */
+
+    .track__content__img {
+        position: static;
+        margin-bottom: 5rem;
+    }
+
+    .explain {
+        flex-direction: column;
+    }
+
+    .partner {
+        flex-direction: column;
+    }
+
+    .partner img {
+        max-width: 250px;
+        margin: auto;
+        margin-top: 2.5rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer__social {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer__social img {
+        margin-right: 1.5rem;
+    }
+
+    footer img, p {
+        margin-top: 2rem;
+    }
+
+}
